@@ -1,0 +1,9 @@
+docker-compose up
+
+./stack fund-admin
+./stack fund-services-ether
+./stack balances
+
+npm run deploy
+
+./stack fund-services-tokens
